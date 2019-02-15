@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3793549F22175CF100B32EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793549E22175CF100B32EAD /* AppDelegate.swift */; };
-		379354A122175CF100B32EAD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 379354A022175CF100B32EAD /* art.scnassets */; };
 		379354A322175CF100B32EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379354A222175CF100B32EAD /* ViewController.swift */; };
 		379354A622175CF100B32EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379354A422175CF100B32EAD /* Main.storyboard */; };
 		379354A822175CF200B32EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379354A722175CF200B32EAD /* Assets.xcassets */; };
 		379354AB22175CF200B32EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379354A922175CF200B32EAD /* LaunchScreen.storyboard */; };
+		379354B32217668400B32EAD /* rock_paper_scissor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 379354B22217668400B32EAD /* rock_paper_scissor.mlmodel */; };
+		379354B52217687400B32EAD /* rock_paper_scissor2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 379354B42217687400B32EAD /* rock_paper_scissor2.mlmodel */; };
+		379354B722176E4A00B32EAD /* rock3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 379354B622176E4A00B32EAD /* rock3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3793549B22175CF100B32EAD /* RockPaperScissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3793549E22175CF100B32EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		379354A022175CF100B32EAD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		379354A222175CF100B32EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		379354A522175CF100B32EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		379354A722175CF200B32EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379354AA22175CF200B32EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379354AC22175CF200B32EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379354B22217668400B32EAD /* rock_paper_scissor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rock_paper_scissor.mlmodel; sourceTree = "<group>"; };
+		379354B42217687400B32EAD /* rock_paper_scissor2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rock_paper_scissor2.mlmodel; sourceTree = "<group>"; };
+		379354B622176E4A00B32EAD /* rock3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rock3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				3793549E22175CF100B32EAD /* AppDelegate.swift */,
-				379354A022175CF100B32EAD /* art.scnassets */,
 				379354A222175CF100B32EAD /* ViewController.swift */,
+				379354B22217668400B32EAD /* rock_paper_scissor.mlmodel */,
+				379354B42217687400B32EAD /* rock_paper_scissor2.mlmodel */,
+				379354B622176E4A00B32EAD /* rock3.mlmodel */,
 				379354A422175CF100B32EAD /* Main.storyboard */,
 				379354A722175CF200B32EAD /* Assets.xcassets */,
 				379354A922175CF200B32EAD /* LaunchScreen.storyboard */,
@@ -125,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379354A122175CF100B32EAD /* art.scnassets in Resources */,
 				379354AB22175CF200B32EAD /* LaunchScreen.storyboard in Resources */,
 				379354A822175CF200B32EAD /* Assets.xcassets in Resources */,
 				379354A622175CF100B32EAD /* Main.storyboard in Resources */,
@@ -140,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				379354A322175CF100B32EAD /* ViewController.swift in Sources */,
+				379354B32217668400B32EAD /* rock_paper_scissor.mlmodel in Sources */,
+				379354B52217687400B32EAD /* rock_paper_scissor2.mlmodel in Sources */,
 				3793549F22175CF100B32EAD /* AppDelegate.swift in Sources */,
+				379354B722176E4A00B32EAD /* rock3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
